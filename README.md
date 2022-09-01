@@ -5,3 +5,4 @@ Algorithms and data structures implemented in JavaScript.
 - [Queue](./src/data_structure/queue/)
 - [Linked List](./src/data_structure/linkedlist/)
   + [Singly Linked List](./src/data_structure/linkedlist/SinglyLinkedList.js)
+  + [Doubly Linked List](./src/data_structure/linkedlist/DoublyLinkedList.js)
