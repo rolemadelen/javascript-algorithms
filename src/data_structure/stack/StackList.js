@@ -1,16 +1,16 @@
-import DoublyLinkedList from "../linkedlist/doubly/DoublyLinkedList.js";
+import { SinglyLinkedList as LinkedList }  from "../linkedlist/singly/SinglyLinkedList.js";
 
 export default class StackList {
     constructor() {
-        this.stack = new DoublyLinkedList();
+        this.stack = new LinkedList();
     }
 
     push(data) {
-        return this.stack.append(data);
+        this.stack.push(data);
     }
 
     pop() {
-        return this.stack.pop();
+        this.stack.pop();
     }
 
     print() {

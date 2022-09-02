@@ -1,6 +1,6 @@
 import Node from "./Node.js"
 
-export default class DoublyLinkedList {
+export class DoublyLinkedList {
     constructor() {
         this.head = null;
         this.tail = null;

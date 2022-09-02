@@ -1,8 +1,8 @@
-import DoublyLinkedList from "../linkedlist/doubly/DoublyLinkedList.js";
+import { DoublyLinkedList as LinkedList } from "../linkedlist/doubly/DoublyLinkedList.js";
 
 export default class QueueList {
     constructor() {
-        this.queue = new DoublyLinkedList();
+        this.queue = new LinkedList();
     }
 
     enqueue(data) {

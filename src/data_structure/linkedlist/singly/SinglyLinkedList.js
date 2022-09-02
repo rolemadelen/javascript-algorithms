@@ -1,6 +1,5 @@
 import Node from "./Node.js"
-
-export default class SinglyLinkedList {
+export class SinglyLinkedList {
     constructor() {
         this.head = null;
         this.length = 0;
